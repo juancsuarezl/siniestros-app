@@ -1,0 +1,46 @@
+h2 {
+  font-size: 1.25rem !important;
+}
+
+h3 {
+  font-size: 1rem !important;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  max-width:300px;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Suaviza la transición entre logo e info */
+.card-front, .card-back {
+  transition: opacity 0.3s ease;
+}
+
+.card-front img {
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
+}
+
+.card-back {
+  padding: 10px;
+}
+
+i.fa-solid.fa-square-phone {
+  margin-right:10px !important;
+}
+
+.btn-primary {
+  background-color: #cc0813 !important;
+  border-color: #cc0813 !important;
+  border-radius: 0.25rem !important;
+}
+
+.btn-download {
+  margin-bottom: 20px !important;
+  display: block;
+  width:20vw;
+}
