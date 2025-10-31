@@ -1,9 +1,0 @@
-# Archivos y carpetas a ignorar
-node_modules
-.angular
-dist
-dist/*
-*.pack
-*.pack.old
-.cache
-tmp
