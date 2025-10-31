@@ -12,12 +12,35 @@ h3 {
 
 .card {
   cursor: pointer;
-  transition: transform 0.3s ease;
-  max-width:300px;
+  transition: all 0.4s ease;
+  width: 100%;
+  min-height: 180px; /* altura por defecto */
+  display: flex;
+  flex-direction: column;
+  margin:10px auto !important;
+}
+
+/* La card expandida crece, las demás quedan igual */
+.card.expanded {
+  min-height: 450px;
+}
+
+/* Para que las columnas no se deformen al crecer una */
+.row {
+  align-items: start !important; /* mantiene las demás arriba */
 }
 
 .card:hover {
   transform: translateY(-4px);
+}
+
+.card-front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px 10px; /* agrega aire arriba y abajo */
+  box-sizing: border-box;
 }
 
 /* Suaviza la transición entre logo e info */
@@ -26,7 +49,12 @@ h3 {
 }
 
 .card-front img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
+  transition: transform 0.3s ease;
 }
 
 .card-back {

@@ -1,15 +1,9 @@
+<app-navbar></app-navbar>
 <div class="container">
-  <img class="mt-2 logo" src="assets/img/toyotabroker.png" alt="">
   <div class="row px-3">
     <div class="col-sm-12 col-md-6 col-lg-6">
       <h2 class="mt-5 mb-4">¿Qué hacer ante un siniestro?</h2>
       <h3>Hacé click en las tarjetas para más información</h3>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-6">
-      <h2 class="mt-5 mb-4">¿Qué debo hacer si choco con mi auto?</h2>
-    <a href="assets/pdf/Que_hacer_si_choco_con_mi_auto_v3.pdf" download class="btn btn-primary btn-download">
-          Descargar instructivo
-    </a>
     </div>
   </div>
 </div>
@@ -18,12 +12,12 @@
     <div class="col-sm-12 col-md-4 col-lg-4 d-flex" *ngFor="let company of insuranceCompanies"
       (click)="toggleCard(company)"
     >
-      <div class="card mb-4 shadow-sm flex-fill card-hover d-flex flex-column justify-content-between">
+      <div class="card mb-4 shadow-sm flex-fill card-hover d-flex flex-column justify-content-between" [class.expanded]="company.showInfo">
         <div class="card-body text-center">
 
           <!-- Logo visible si no se muestra info -->
           <div *ngIf="!company.showInfo" class="card-front">
-            <img [src]="company.logo" alt="{{ company.name }}" title="{{ company.name }}" class="mb-3" style="max-width: 100px;">
+            <img [src]="company.logo" alt="{{ company.name }}" title="{{ company.title }}" class="mb-3" style="max-width: 100px;">
           </div>
 
           <!-- Info visible al click -->
