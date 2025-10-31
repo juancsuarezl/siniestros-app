@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.insuranceCompanies = [
       {
-        logo: '../assets/img/logo-sc.jpg',
+        logo: 'assets/img/logo-sc.jpg',
         name: 'San Cristóbal',
         towingPhone: '0810-444-0100',
         automotivePhone: 'CABA/GBA: 4521-8401 // 4524-1812 // 02 Resto del país 0341-4202000',
@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: '../assets/img/Logo-Sancor-Seguros-2.png',
+        logo: 'assets/img/Logo-Sancor-Seguros-2.png',
         name: 'Sancor',
         towingPhone: '0800-333-2766',
         automotivePhone: '0800-777-4643',
@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: '../assets/img/allianz-logo-0-2048x2048-1.png',
+        logo: 'assets/img/allianz-logo-0-2048x2048-1.png',
         name: 'Allianz',
         towingPhone: '0800-888-24324',
         automotivePhone: '00810-222-2243',
@@ -43,7 +43,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: '../assets/img/logo-la-caja.png',
+        logo: 'assets/img/logo-la-caja.png',
         name: 'La Caja',
         towingPhone: '0810-888-2894',
         automotivePhone: '0810-888-0810',
@@ -53,7 +53,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: '../assets/img/logo-triunfo.jpg',
+        logo: 'assets/img/logo-triunfo.jpg',
         name: 'Triunfo',
         towingPhone: '0810-666-0302',
         automotivePhone: '0810-666-0302',
@@ -63,7 +63,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: '../assets/img/logo-mapfre.jpg',
+        logo: 'assets/img/logo-mapfre.jpg',
         name: 'Mapfre',
         towingPhone: '0810-666-7424',
         automotivePhone: '0810-666-7424',
@@ -73,7 +73,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: '../assets/img/logo-zurich.png',
+        logo: 'assets/img/logo-zurich.png',
         name: 'Zurich',
         towingPhone: '800 123 4567',
         automotivePhone: '800 765 4321',

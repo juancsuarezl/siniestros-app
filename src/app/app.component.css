@@ -1,3 +1,7 @@
+.logo {
+  margin:0 !important;
+}
+
 h2 {
   font-size: 1.25rem !important;
 }
@@ -43,4 +47,11 @@ i.fa-solid.fa-square-phone {
   margin-bottom: 20px !important;
   display: block;
   width:20vw;
+}
+
+/********** MEDIA QUERIES **********/
+@media (max-width: 768px) {
+  .btn-download {
+    width: 60vw !important;
+  }
 }
