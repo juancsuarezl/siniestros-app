@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.insuranceCompanies = [
       {
-        logo: 'assets/img/logo-sc.jpg',
+        logo: 'assets/img/logo-sc.png',
         name: 'San Cristóbal',
         title: 'Info siniestros San Cristóbal',
         towingPhone: '0810-444-0100',
@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: 'assets/img/Logo-Sancor-Seguros-2.png',
+        logo: 'assets/img/logo-sancor.jpg',
         name: 'Sancor',
         title: 'Info siniestros Sancor',
         towingPhone: '0800-333-2766',
@@ -35,7 +35,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: 'assets/img/allianz-logo-0-2048x2048-1.png',
+        logo: 'assets/img/logo-allianz.png',
         name: 'Allianz',
         title: 'Info siniestros Allianz',
         towingPhone: '0800-888-24324',
@@ -46,7 +46,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: 'assets/img/logo-la-caja.png',
+        logo: 'assets/img/la-caja-logo.jpg',
         name: 'La Caja',
         title: 'Info siniestros La Caja',
         towingPhone: '0810-888-2894',
@@ -57,7 +57,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: 'assets/img/logo-triunfo.jpg',
+        logo: 'assets/img/logo-triunfo.png',
         name: 'Triunfo',
         title: 'Info siniestros Triunfo',
         towingPhone: '0810-666-0302',
@@ -68,7 +68,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: 'assets/img/logo-mapfre.jpg',
+        logo: 'assets/img/logo-mapfre.png',
         name: 'Mapfre',
         title: 'Info siniestros Mapfre',
         towingPhone: '0810-666-7424',

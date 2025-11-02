@@ -5,7 +5,6 @@
       <h2 class="mt-5 mb-4">¿Qué hacer ante un siniestro?</h2>
       <h3>Hacé click en las tarjetas para más información</h3>
     </div>
-  </div>
 </div>
 <div class="container">
   <div class="row justify-content-center p-3">
@@ -24,14 +23,15 @@
           <div *ngIf="company.showInfo" class="card-back">
             <h5 class="card-title text-center"><img [src]="company.logo" alt="{{ company.name }}" class="mb-3" style="width: 40px; margin-right:10px;">{{ company.name }}</h5>
             <p class="card-text">{{ company.text }}</p>
-            <p class="card-text"><strong>Tipo de Siniestro:</strong> {{ company.automotiveText }}</p>
+            <p class="card-text"><strong><span class="text-danger mx-2">Tipo de Siniestro:</span> </strong> <b>{{ company.automotiveText }}</b></p>
             <div class="d-grid gap-2">
               <a href="#" class="btn btn-primary">
                 <!-- [href]="'tel:' + company.phone" -->
                 <i class="fa-solid fa-square-phone"></i>{{ company.automotivePhone }}
               </a>
             </div>
-            <p class="card-text mt-3"><strong>Tipo de Siniestro:</strong> {{ company.towingText }}</p>
+            <p class="card-text mt-3"><strong><span class="text-danger mx-2">Tipo de Siniestro:</span></strong></p>
+            <p><b>{{ company.towingText }}</b></p>
             <div class="d-grid gap-2">
               <a href="#" class="btn btn-primary">
                 <!-- [href]="'tel:' + company.phone" -->
@@ -43,5 +43,10 @@
       </div>
     </div>
   </div>
+  <div class="col-12 tcfa-contact">
+      <div>Cualquier inquietud estamos para asesorarte en lo que necesites:</div>
+      <div>
+        Teléfono: <span class="text-danger"><b>0800-222-TCFA(8232)</b></span>  desde CABA y GBA / <span class="text-danger"><b>0810-222-TCFA (8232)</b></span> desde el Interior del país.
+      </div>
   </div>
 
