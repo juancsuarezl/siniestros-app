@@ -46,7 +46,7 @@ export class AppComponent implements OnInit {
         showInfo: false
       },
       {
-        logo: 'assets/img/la-caja-logo.jpg',
+        logo: 'assets/img/la-caja-logo.png',
         name: 'La Caja',
         title: 'Info siniestros La Caja',
         towingPhone: '0810-888-2894',
@@ -82,8 +82,8 @@ export class AppComponent implements OnInit {
         logo: 'assets/img/logo-zurich.png',
         name: 'Zurich',
         title: 'Info siniestros Zurich',
-        towingPhone: '800 123 4567',
-        automotivePhone: '800 765 4321',
+        towingPhone: '0800 333 Zurich (987424) opción 3',
+        automotivePhone: '0800 333 Zurich (987424) opción 3',
         text: 'Te brindamos la información de contacto para que gestiones tu caso.',
         automotiveText:'Automotor',
         towingText:'Servicio de Remolque',
